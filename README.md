@@ -1,6 +1,6 @@
 # Revisão de OO e SQL
 
-## Nesta aula vamos revisar
+## Tópicos
 - Chave primária, chave estrangeira
 - DDL (create table, alter table)
 - SQL
@@ -20,13 +20,6 @@
 - STS (ou outra IDE)
 - Servidor Postgres
 - pgAdmin
-
-[Guia de instalação para Windows](https://github.com/devsuperior/sds1/tree/master/ferramentas/windows)
-
-[Guia de instalação para Linux](https://github.com/devsuperior/sds1/tree/master/ferramentas/linux)
-
-[Guia de instalação para Mac](https://github.com/devsuperior/sds1/tree/master/ferramentas/mac)
-
 
 ## Criação e instanciação da base de dados
 ```sql
@@ -75,7 +68,6 @@ INSERT INTO tb_order_product (order_id, product_id) VALUES
 (2 , 2),
 (2 , 3);
 ```
-
 ## Consulta para recuperar os pedidos com seus produtos
 ```sql
 SELECT * FROM tb_order
